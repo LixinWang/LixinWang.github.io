@@ -1,13 +1,16 @@
-// we're just telling babel we're using env preset along with react preset
-// and we want to use the plugins lodash, antd and syntax-dynamic-import
-
 {
-    "presets" : [["env",{ "modules": false }], "react" ],
+    "presets": [
+        ["env", {
+            "targets": {
+                "browsers": ["defaults"]
+            },
+            "modules": false
+        }],
+        "react"
+    ],
     "plugins": [
-        "lodash",
-        [ "import", {
-            "libraryName": "antd", "style": "css"
-        } ],
-        "syntax-dynamic-import"
+        "react-hot-loader/babel",
+        "transform-object-rest-spread"
     ]
 }
+
