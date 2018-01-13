@@ -1,7 +1,7 @@
 import 'normalize.css/normalize.css';
 import styles from './index.less';
 
-import backgroundData from 'public/assets/bg.svg';
+//import backgroundData from 'public/assets/bg.svg';
 import onAppLoaded from 'bundle-loader!~/app';
 
 // (function background(parent) {

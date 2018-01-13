@@ -158,4 +158,3 @@ export default class Photography extends React.Component {
         </section>;
     }
 }
-

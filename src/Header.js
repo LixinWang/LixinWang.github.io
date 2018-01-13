@@ -4,12 +4,12 @@ import { Link, NavLink }  from 'react-router-dom';
 
 import styles from './Header.less';
 
-function LogoS() {
-    return <div className={styles.logoS}>
-        <div className={styles.round} />
-        <div className={styles.line} />
-    </div>;
-}
+// function LogoS() {
+//     return <div className={styles.logoS}>
+//         <div className={styles.round} />
+//         <div className={styles.line} />
+//     </div>;
+// }
 
 function Logo() {
     return <div className={styles.logo}>
