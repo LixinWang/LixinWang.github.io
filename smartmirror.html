@@ -49,40 +49,40 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Tesla Air</h1>
-							<h2>UI/UX Design</h2>
-							<p>Ideas for a mobile app for "Tesla Air" airline employees to track turnaround delays. The application tracks
-								how long it takes teams to complete tasks during the turnaround time for an aircraft.
-								Airline teams may include flight attendants, baggage handlers, gate agents, etc.
-								Ideally, the app would relay information about common issues between teams, giving employees a heads up into upcoming delays.</p>
+							<h1>Smart Mirror</h1>
+							<h2>User Research | Product Design</h2>
+							<p>A smart mirror integrated into the <a href="http://www.awarehome.gatech.edu/">Aware Home at Georgia Tech </a>
+								to assist older adults or people with disabilities in their daily life.
+							Features include weather and time alerts, as well as important reminders like daily medication alerts.</p>
 							<p></p>
 
-							<h2>Final Prototype Screens</h2>
-							<span class="image main"><img src="images/TeslaAir.png" alt="Final Prototype Screens"/></span>
+							<h2>Initial Prototype</h2>
+							<span class="image main"><img src="images/mirror_v1.png" alt="initial mirror prototype"/></span>
 							<p></p>
 
-							<h2>Initial Prototype Ver. 1</h2>
-							<span class="image main"><img src="images/ta_v1.png" alt="Initial Prototype Ver. 1"/></span>
-							<p>These are the first sketches I created, but I didn't end up going with this design for many reasons.
-								One of the things scrapped was the progress bar that shows the turnaround progress of the plane.
-								I realized that the progress bar wasn't practical since much of the events occurred simultaneously rather than chronologically,
-							 plus there was too much text on the home screen. Additionally, I also did not go with the design for the team page because I realized
-						 	I focused too much on the team's specific tasks. For instance, if I was a flight attendant looking at the cabin cleaning crew's page, I wouldn't
-						care whether they were wiping tray tables or vacuuming; I would only need to know if they were on schedule or not. </p>
-							<p></p>
-
-							<h2>Initial Prototype Ver. 2</h2>
-							<span class="image main"><img src="images/ta_v2.png" alt="Initial Prototype Ver. 2"/></span>
-							<p>I ended up going with most of what I sketched out for the second version of the prototype.
-							 In this version, the home screen would show the current flight information and the next flight the employee would go to.
-						  Clicking on a flight would show a "status board" for all the teams working on that flight.
-							The team page would show the team's current status, how long it would take them to complete their turnaround tasks, and
-						 if they were on their own page, options to mark the tasks as "complete" or to alert the other teams of a delay.</p>
-							<p></p>
-
-							<h2>User Flow Diagram</h2>
-							<span class="image main"><img src="images/ta_userflow.png" alt="User Flow Diagram"/></span>
-						</div>
+							<h2>User Research</h2>
+							<p>One of the main challeges of this project was conducting research with our target users who are adults over the age of 40.
+							It was difficult to gather data on an older population, but we were able to assess the users' need through an online survey.
+						 We asked participants questions regarding the features they would like to see in a "smart mirror" and the methods of interacting with it (Eg.
+						 voice commands, touch screen, text and image).</p>
+						 <p>We recieved responses from over 25 participants. Surprisingly, a large majority of the participants only wanted to interact with the mirror
+						 via image and text displays. We realized that this was because older generations tend to prefer simpler interfaces.</p>
+					 <p>Below were the most requested features for the "smart mirror":</p>
+						 <ul>
+							 <li>Date & time</li>
+							 <li>Weather</li>
+							 <li>Alarms, reminders, or alerts</li>
+							 <li>Daily schedule</li>
+							 <li>Cutom message</li>
+						 </ul>
+						 <h2>Final Prototype</h2>
+	 					<span class="image main"><img src="images/mirror.png" alt="final mirror prototype"/></span>
+	 					<p>The final prototype was created with a Raspberry Pi mounted behind a two-way mirror and desktop monitor.
+	 						We were able to implement a majority of the requested features using the open-sourced
+							 <a href="https://github.com/MichMich/MagicMirror">Magic Mirror package</a> for the Raspberry Pi.</p>
+						<p>A custom greeting message appears on the top left. The top right corner of the mirror shows
+							the date and time, as well as a daily schedule, which connects to Google Calendar.
+							The weather at the bottom right is pulled from <a href="https://openweathermap.org/">OpenWeatherMap.org</a>.</p>
 					</div>
 
 				<!-- Footer -->
