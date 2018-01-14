@@ -2372,7 +2372,7 @@
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 80%;
 			}
 
 			@media screen and (max-width: 736px) {
