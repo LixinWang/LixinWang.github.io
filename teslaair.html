@@ -13,6 +13,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
 		<!-- Wrapper -->
@@ -51,22 +57,52 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Tesla Air</h1>
-							<h2>UI/UX Design | Interaction Design</h2>
+							<h2><span class="image left"><img src="images/teslaair1.png" alt="" /></span>UI/UX Design | Interaction Design</h2>
 							<p>Ideas for a mobile app for "Tesla Air" airline employees to track turnaround delays. The application tracks
 								how long it takes teams to complete tasks during the turnaround time for an aircraft.
 								Airline teams may include flight attendants, baggage handlers, gate agents, etc.
-								Ideally, the app would relay information about common issues between teams, giving employees a heads up into upcoming delays.</p>
-							<p></p>
+								Ideally, the app would relay information about common issues between teams, giving employees a heads up into upcoming delays.
+							</p>
+
+							<a href="https://www.canva.com/design/DACrFoYzhmo/4SQARNzs_QEJIRB4S9SfBA/view?utm_content=DACrFoYzhmo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" class="button">view presentation</a>
+							<hr />
+
+							<h2>User Stories</h2>
+							<p>I wrote some user stories from the flight attendant's perspective to figure out
+							 the main features for the app.</p>
+							<p><b>STORY:</b> Checking the turnaround status<br />
+								<b>NARRATIVE:</b> As a <i>flight attendant</i>, I want to <i>check the plane's turnaround status</i> so that <i>I can know if we are on time.</i><br />
+								<b>SCENARIO:</b> The user is logged in<br />
+								<b>GIVEN:</b> The home screen is opened<br />
+								<b>WHEN:</b> The user views their home screen<br />
+								<b>THEN:</b> The user will see a progress bar and text highlighting the current status of the plane.
+							</p>
+							<p><b>STORY:</b> Checking the status of a specific team<br />
+								<b>NARRATIVE:</b> As a <i>flight attendant</i>, I want to <i>check a specific team's status</i> so that <i>I can know if they are on schedule with their tasks.</i><br />
+								<b>SCENARIO:</b> The user is on the home screen<br />
+								<b>GIVEN:</b> The side bar is opened<br />
+								<b>WHEN:</b> The user taps on a specific team (eg. Baggage handlers)<br />
+								<b>THEN:</b> The user will see a screen of to-do list/ current progress for those users.
+							</p>
+							<p><b>STORY:</b> Track my team's progress<br />
+								<b>NARRATIVE:</b> As a <i>flight attendant</i>, I want to <i>track my own team's status</i> so that <i>I can see how long it takes us to do tasks & improve our time.</i><br />
+								<b>SCENARIO:</b> The user is on the home screen<br />
+								<b>GIVEN:</b> The side bar is opened<br />
+								<b>WHEN:</b> The user taps on their team<br />
+								<b>THEN:</b> The user will see a screen of to-do list/ current progress for their team and a record of pervious turnaround times.
+							</p>
+							<hr />
+
 
 							<h2>Initial Prototype Ver. 1</h2>
 							<span class="image main"><img src="images/ta_v1.png" alt="Initial Prototype Ver. 1"/></span>
-							<p>These are the first sketches I created, but I didn't end up going with this design for many reasons.
+							<p>These are the first sketches I created based on the user stories, but I didn't end up going with this design for many reasons.
 								One of the things scrapped was the progress bar that shows the turnaround progress of the plane.
 								I realized that the progress bar wasn't practical since much of the events occurred simultaneously rather than chronologically,
 							 plus there was too much text on the home screen. Additionally, I also did not go with the design for the team page because I realized
 						 	I focused too much on the team's specific tasks. For instance, if I was a flight attendant looking at the cabin cleaning crew's page, I wouldn't
 						care whether they were wiping tray tables or vacuuming; I would only need to know if they were on schedule or not. </p>
-							<p></p>
+							<hr />
 
 							<h2>Initial Prototype Ver. 2</h2>
 							<span class="image main"><img src="images/ta_v2.png" alt="Initial Prototype Ver. 2"/></span>
@@ -75,15 +111,15 @@
 						  Clicking on a flight would show a "status board" for all the teams working on that flight.
 							The team page would show the team's current status, how long it would take them to complete their turnaround tasks, and
 						 if they were on their own page, options to mark the tasks as "complete" or to alert the other teams of a delay.</p>
-							<p></p>
+							<hr />
 
 							<h2>User Flow Diagram</h2>
-							<span class="image main"><img src="images/ta_userflow.png" alt="User Flow Diagram"/></span>
+							<div class="8u"><span class="image fit"><img src="images/ta_userflow.png" alt="User Flow Diagram"/></span></div>
+							<hr />
 
 							<h2>Final Prototype Screens</h2>
 							<span class="image main"><img src="images/TeslaAir.png" alt="Final Prototype Screens"/></span>
-							<p>Click <a href="https://www.figma.com/proto/rkenfhU58tQtPCiisaDVk7/TeslaAir?scaling=contain&node-id=22%3A154">here</a> to see the final prototype on Figma.</p>
-
+<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/rkenfhU58tQtPCiisaDVk7/TeslaAir?scaling=contain&node-id=22%3A154" allowfullscreen></iframe>
 						</div>
 					</div>
 
