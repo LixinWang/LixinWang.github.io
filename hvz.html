@@ -8,11 +8,11 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
@@ -24,7 +24,7 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="index.html" class="logo"><span class="symbol"><img src="images/logo.svg" alt="" /></a>
+								<a href="index.html" class="logo"><span class="symbol"><img src="images/logo.svg" alt="logo" /></a>
 
 									<a href="index.html" class="logo">
 										<a href="index.html" class="logo"><span class="active">Portfolio</span></a>
@@ -57,9 +57,10 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Humans vs. Zombies Simulator</h1>
-							<span class="image main"><img src="images/creepy.gif" alt="Humans vs Zombies gif"/></span>
-							<h2>Game Design | 3D Environment Modeling</h2>
-							<p>This was a project for my CS 4455: Video Game Design class.
+							<span class="image left"><img src="images/hvzgif1.gif" alt="Humans vs Zombies gif"/></span>
+							<h3>Game Design | 3D Environment Modeling</h3>
+
+							<p>This was a project for my Video Game Design class.
 								We created a third person survival game with the <a href="https://unity3d.com/">Unity</a> game engine. The game was
 								inspired by the annual Humans vs. Zombies game on campus, in which a team of "humans" must survive against a team of
 								"zombies" while the "zombies" try to infect as many people as they can. Since the game is set on Georgia Tech's
@@ -68,61 +69,100 @@
 							<hr />
 
 							<h2>Game Trailer</h2>
-							<iframe src="https://drive.google.com/file/d/1ZiGTf3WZEidcSUXrgCPz6qXj_Y0qAHZM/preview" width="640" height="480"></iframe>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/oMk8xQZ6las" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							<hr />
 
 							<h2>How to Play</h2>
 							<p><i>You are the last survivor of Humans vs. Zombies. Campus is infected with the undead. Get to the goal point within the time limit and kill as many zombies as you can!</i></p>
-							<p>Controls:</p>
-							<ul>
-							 <li><b>W:</b> run foward</li>
-							 <li><b>S:</b> run backward</li>
-							 <li><b>MOUSE:</b> rotate and turn left/right</li>
-							 <li><b>LEFT MOUSE CLICK:</b> throw sock</li>
-							 <li><b>SHIFT:</b> crouch</li>
-							 <li><b>SPACE:</b> jump</li>
-							 <li><b>ESC:</b> pause/ in-game menu</li>
-						 </ul>
-						 <p>Collect items by colliding with them:</p>
-						 <ul>
-							<li><b>Pizza:</b> +25% health</li>
-							<li><b>Coffee:</b> speed boost</li>
-							<li><b>Ammo box:</b> +5 sock ammo</li>
-						 </ul>
-							<hr />
+							<h3>Controls:</h3>
+								<ul>
+								 <li><b>W:</b> run foward</li>
+								 <li><b>S:</b> run backward</li>
+								 <li><b>MOUSE:</b> rotate and turn left/right</li>
+								 <li><b>LEFT MOUSE CLICK:</b> throw sock</li>
+								 <li><b>SHIFT:</b> crouch</li>
+								 <li><b>SPACE:</b> jump</li>
+								 <li><b>ESC:</b> pause/ in-game menu</li>
+							 </ul>
+						 <h3>Collect items by colliding with them:</h3>
+							 <ul>
+								<li><b>Pizza:</b> +25% health</li>
+								<li><b>Coffee:</b> speed boost</li>
+								<li><b>Ammo box:</b> +5 sock ammo</li>
+							 </ul>
+						 <hr />
 
-							<h2>Objectives</h2>
-							<p>3D "Gamefeel"</p>
+						 <h2>Setting</h2>
+						 <p>Georgia Tech Campus.</p>
+						 <div class="box alt">
+ 							<div class="row uniform">
+ 								<div class="6u"><span class="image fit"><img src="images/hvzsetting1.png" alt="setting screenshot 1" /></span></div>
+ 								<div class="6u$"><span class="image fit"><img src="images/hvzsetting2.png" alt="setting screenshot 2" /></span></div>
+ 							</div>
+							<div class="row uniform">
+ 								<div class="6u"><span class="image fit"><img src="images/hvzsetting3.png" alt="setting screenshot 3" /></span></div>
+ 								<div class="6u$"><span class="image fit"><img src="images/hvzsetting4.png" alt="setting screenshot 4" /></span></div>
+ 							</div>
+ 						</div>
+					  <hr />
+
+						<h2>Characters</h2>
+						<div class="row">
+							<div class="6u 12u$(medium)">
+								<span class="image main"><img src="images/hvzhumans.png" alt="humans icon"/></span>
+								<h3>Abilities:</h3>
+								<ul>
+									<li>Running</li>
+									<li>Hiding</li>
+									<li>Collecting items</li>
+									<li>Killing zombies</li>
+								</ul>
+							</div>
+							<div class="6u$ 12u$(medium)">
+							<span class="image main"><img src="images/hvzzombies.png" alt="zombies icon"/></span>
+							 <h3>Abilities:</h3>
 							 <ul>
-  							<li>Goals for each level</li>
-								<li>Ability to pause game and restart</li>
-							</ul>
-							<p>Fun Gameplay</p>
-							 <ul>
-  							<li>Three levels with different start point & goals</li>
-								<li>Vary difficulty by amount of each type of zombie (crawling, walking, running)</li>
-								<li>Collect items for ammo, healing, speed boost</li>
-								<li>Explore GT campus</li>
-								<li>Time limit for each level</li>
-							</ul>
-							<p>3D Character Controller with Realtime Control</p>
-							 <ul>
-  							<li>Player can run, jump, crouch, throw</li>
-								<li>Third person camera follows mouse</li>
-							</ul>
-							<p>Realtime NPC steering/AI</p>
-							 <ul>
-  							<li>Zombie AI</li>
-								<li>Player can hide from zombies</li>
-							</ul>
-							<p>3D World with Physics and Spatial Simulation</p>
-							 <ul>
-								 <li>3D campus model</li>
-								 <li>Trees and bushes with wind effect</li>
-								 <li>Sound effects for player and zombie, reaching goal point, running into objects</li>
-								 <li>Fog particle effect barrier</li>
-							</ul>
-							<p></p>
+								 <li>Random spawning</li>
+								 <li>Pathfinding and proximity detection</li>
+								 <li>Killing player</li>
+							 </ul>
+
+							</div>
+						</div>
+						<hr />
+
+					  <h2>Project Objectives</h2>
+						<h3>3D "Gamefeel"</h3>
+						 <ul>
+							<li>Goals for each level</li>
+							<li>Ability to pause game and restart</li>
+						</ul>
+						<h3>Fun Gameplay</h3>
+						 <ul>
+							<li>Three levels with different start point & goals</li>
+							<li>Vary difficulty by amount of each type of zombie (crawling, walking, running)</li>
+							<li>Collect items for ammo, healing, speed boost</li>
+							<li>Explore GT campus</li>
+							<li>Time limit for each level</li>
+						</ul>
+						<h3>3D Character Controller with Realtime Control</h3>
+						 <ul>
+							<li>Player can run, jump, crouch, throw</li>
+							<li>Third person camera follows mouse</li>
+						</ul>
+						<h3>Realtime NPC steering/AI</h3>
+					  <ul>
+							<li>Zombie AI</li>
+							<li>Player can hide from zombies</li>
+						</ul>
+						<h3>3D World with Physics and Spatial Simulation</h3>
+					  <ul>
+							<li>3D campus model</li>
+							<li>Trees and bushes with wind effect</li>
+							<li>Sound effects for player and zombie, reaching goal point, running into objects</li>
+							<li>Fog particle effect barrier</li>
+						</ul>
+
 						</div>
 					</div>
 
